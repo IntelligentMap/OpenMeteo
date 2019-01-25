@@ -1,0 +1,32 @@
+<div class="col">
+  <div class="weather-card one">
+    <div class="top">
+      <div class="wrapper">
+        <h1 class="heading">{{ time }}</h1>
+        <h3 class="location">{{ place }}</h3>
+        <p class="temp">
+          <span class="temp-value">{{ temperature }}</span>
+          <a><span class="temp-type">°C</span></a>
+        </p>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="wrapper">
+        <ul class="forecast">
+          <li class="active">
+            <span class="date">Влажность</span>
+            <span class="lnr lnr-sun condition">
+									<span class="temp">{{ humidity }}<span class="temp-type">%</span></span>
+								</span>
+          </li>
+          <li class="active">
+            <span class="date">Ветер</span>
+            <span class="lnr lnr-cloud condition">
+									<span class="temp">{{ wind }} <span class="temp-type">м/сек</span></span>
+								</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
